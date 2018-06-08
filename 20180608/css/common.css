@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+html {
+    height: 3000px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    top: 80px;
+    left: 50px;
+}
