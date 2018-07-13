@@ -60,26 +60,22 @@ for (var i = 1; i < 101; i++) {
 }
 ////Q2
 for (var i = 1; i < 101; i++) {
-    if ((i > 10) && (31 > i)) {
-        console.log(i)
-    } else((i > 70) && (91 > i)) {
+    if (i >= 10 && i <= 30 || i >= 70 && i <= 90) {
         console.log(i)
     }
 }
+
 //Q3
 for (var i = 1; i < 101; i++) {
     if (i % 3 === 0) {
         console.log(i)
     }
 }
-////Q4
-//for (var i = 1900; i < 2101; i++) {
-//    if (i % 4 === 0) {
-//        if (i % 100 > 0) {
-//            console.log(i)
-//        }
-//        elseif(i % 400 === 0) {
-//            console.log(i)
-//        }
-//    }
-//}
+//Q4
+for (var i = 1900; i < 2101; i++) {
+    if (i % 4 == 0 && i % 100 !== 0) {
+        console.log(i)
+    } else if (i % 400 === 0) {
+        console.log(i)
+    }
+}
