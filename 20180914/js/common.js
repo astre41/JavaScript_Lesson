@@ -1,12 +1,18 @@
 //　Q1 配列に0〜50、50〜0の配列を入れてそれぞれ表示
-var num = []
+var num1 = []
 
 for (var i = 0; i < 51; i++) {
-    num.push(i)
+    num1.push(i)
 }
+console.log(num1)
 
-console.log(num)
-console.log(num.reverse())
+var num2 = []
+
+for (var i = 50; i > 0; i--) {
+    num2.push(i)
+}
+console.log(num2)
+
 
 
 // Q2 下記の果物が入った配列を一つづつ表示

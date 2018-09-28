@@ -1,17 +1,20 @@
 @charset "utf-8";
 
 html {
-    height: 3000px;
+    margin: 50px;
+    border: dashed 3px #FF0066;
 }
 
 .box {
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
+    background-color: #ff3366;
+    color: #fff;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     position: fixed;
-    top: 80px;
-    left: 50px;
-    background: white;
-    /*    border: #bbb 3px dashed;*/
-    padding: 7px;
-    opacity: 0.3;
+    margin: auto;
 }
